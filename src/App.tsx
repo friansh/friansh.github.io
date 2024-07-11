@@ -321,27 +321,29 @@ function App() {
               <ServerStackIcon className="h-5 w-5 text-gray-600" />
               Server Operational Experiences
             </h4>
-            <div className="grid grid-cols-3 gap-6 mt-5 gap-7">
+            <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 mt-5 gap-7">
               <div className="flex justify-center flex-col gap-3 border p-4 rounded-lg shadow-sm">
                 <img src={LinuxLogo} className="h-24 mx-auto" />
-                <span className="text-center block">
+                <span className="text-center block text-xs lg:text-base">
                   Deployment on Debian (Ubuntu) and RHEL (AlmaLinux) based
                   Virtual Private Server
                 </span>
               </div>
               <div className="flex justify-center flex-col gap-3  border p-4 rounded-lg shadow-sm">
-                <img src={CpanelLogo} className="h-10 mx-auto" />
-                <span className="text-center block">
+                <img src={CpanelLogo} className="h-6 lg:h-10 mx-auto" />
+                <span className="text-center block text-xs lg:text-base">
                   Deployment on Shared Hosting using CPanel
                 </span>
               </div>
               <div className="flex justify-center flex-col gap-3 border p-4 rounded-lg shadow-sm">
                 <img src={DockerLogo} className="h-24 mx-auto" />
-                <span className="text-center block">Docker Configuration</span>
+                <span className="text-center block text-xs lg:text-base">
+                  Docker Configuration
+                </span>
               </div>
               <div className="flex justify-center flex-col gap-3 border p-4 rounded-lg shadow-sm">
                 <img src={NginxLogo} className="h-24 mx-auto" />
-                <span className="text-center block">
+                <span className="text-center block text-xs lg:text-base">
                   Configuring Basic Web Server Package using Nginx,
                   MariaDB/MySQL, PHP, JavaScript, Python, PM2 Supervisor (not
                   XAMPP)
@@ -349,17 +351,19 @@ function App() {
               </div>
               <div className="flex justify-center flex-col gap-3 border p-4 rounded-lg shadow-sm">
                 <img src={ProxmoxLogo} className="h-24 mx-auto" />
-                <span className="text-center block">
+                <span className="text-center block text-xs lg:text-base">
                   Creating Home Lab Server using Proxmox Hypervisor
                 </span>
               </div>
               <div className="flex justify-center flex-col gap-3 border p-4 rounded-lg shadow-sm">
-                <img src={MikroTikLogo} className="h-10 mx-auto" />
-                <span className="text-center block">Basic Network Set Up.</span>
+                <img src={MikroTikLogo} className="h-6 lg:h-10 mx-auto" />
+                <span className="text-center block text-xs lg:text-base">
+                  Basic Network Set Up
+                </span>
               </div>
               <div className="flex justify-center flex-col gap-3 border p-4 rounded-lg shadow-sm">
                 <img src={AzureLogo} className="h-24 mx-auto" />
-                <span className="text-center block">
+                <span className="text-center block text-xs lg:text-base">
                   Deployment on Microsoft Azure
                 </span>
               </div>
