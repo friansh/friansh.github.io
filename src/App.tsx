@@ -83,7 +83,7 @@ function App() {
       <div className="flex lg:flex-row flex-col">
         <aside
           className={`${
-            showTableOfContents ? "max-h-0" : "max-h-screen"
+            showTableOfContents ? "max-h-screen" : "max-h-0"
           } lg:min-h-screen transition-all duration-300 ease-in-out lg:fixed lg:t-0 w-full font-semibold lg:w-80 overflow-y-hidden bg-white shadow-md bg-gradient-to-r from-cyan-700 to-sky-800 text-white`}
         >
           <div className="m-5">
