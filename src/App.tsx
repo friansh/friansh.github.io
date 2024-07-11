@@ -173,7 +173,11 @@ function App() {
 
               <div className="flex flex-col lg:flex-row gap-6">
                 <div className="basis-1/2">
-                  <img src={SsZad} alt="" />
+                  <img
+                    src={SsZad}
+                    alt=""
+                    className="border shadow-sm rounded-sm"
+                  />
                 </div>
                 <div className="basis-1/2 flex flex-col place-content-between gap-10">
                   <div>
@@ -234,7 +238,11 @@ function App() {
 
               <div className="flex flex-col lg:flex-row gap-6 cl mt-3">
                 <div className="basis-1/2">
-                  <img src={SsConf} alt="" />
+                  <img
+                    src={SsConf}
+                    alt=""
+                    className="border shadow-sm rounded-sm"
+                  />
                 </div>
                 <div className="basis-1/2 flex flex-col place-content-between gap-10">
                   <div>
