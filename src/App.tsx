@@ -84,7 +84,7 @@ function App() {
         <aside
           className={`${
             showTableOfContents ? "h-screen" : "h-0"
-          } transition-all duration-300 ease-in-out fixed lg:t-0 w-full font-semibold lg:w-80 overflow-y-hidden bg-black/30 shadow-md text-white`}
+          } lg:h-screen transition-all duration-300 ease-in-out fixed lg:t-0 w-full font-semibold lg:w-80 overflow-y-hidden bg-black/30 shadow-md text-white`}
         >
           <div className="bg-gradient-to-r from-cyan-700 to-sky-800 p-5 lg:min-h-screen ">
             <span className="top-0 block font-semibold text-lg tracking-wide mb-3 pb-2 ps-2 border-b-2 border-white/50 flex items-center gap-1">
