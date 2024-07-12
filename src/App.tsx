@@ -83,15 +83,18 @@ function App() {
       <div className="flex lg:flex-row flex-col">
         <aside
           className={`${
-            showTableOfContents ? "max-h-screen" : "max-h-0"
-          } lg:min-h-screen transition-all duration-300 ease-in-out lg:fixed lg:t-0 w-full font-semibold lg:w-80 overflow-y-hidden bg-white shadow-md bg-gradient-to-r from-cyan-700 to-sky-800 text-white`}
+            showTableOfContents ? "h-screen" : "h-0"
+          } transition-all duration-300 ease-in-out fixed lg:t-0 w-full font-semibold lg:w-80 overflow-y-hidden bg-black/30 shadow-md text-white`}
         >
-          <div className="m-5">
+          <div className="bg-gradient-to-r from-cyan-700 to-sky-800 p-5 lg:min-h-screen ">
             <span className="top-0 block font-semibold text-lg tracking-wide mb-3 pb-2 ps-2 border-b-2 border-white/50 flex items-center gap-1">
               <BookOpenIcon className="h-5 w-5 inline" />
               Daftar Isi
             </span>
-            <ul className="ps-2 leading-8 text-white/90 underline-offset-3 tracking-wide">
+            <ul
+              className="ps-2 leading-8 text-white/90 underline-offset-3 tracking-wide"
+              onClick={() => setShowTableOfContents(false)}
+            >
               <li>
                 <a href="#top">Profil</a>
               </li>
